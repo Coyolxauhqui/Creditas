@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.355a8071.chunk.css",
+    "main.js": "/static/js/main.b53a56e2.chunk.js",
+    "main.js.map": "/static/js/main.b53a56e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
+    "static/js/2.b004c266.chunk.js": "/static/js/2.b004c266.chunk.js",
+    "static/js/2.b004c266.chunk.js.map": "/static/js/2.b004c266.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cf61914e50bf8b171ff8c9e3b0bcb039.js": "/precache-manifest.cf61914e50bf8b171ff8c9e3b0bcb039.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.355a8071.chunk.css.map": "/static/css/main.355a8071.chunk.css.map",
+    "static/js/2.b004c266.chunk.js.LICENSE.txt": "/static/js/2.b004c266.chunk.js.LICENSE.txt",
+    "static/media/LogoAmericanExpress.svg": "/static/media/LogoAmericanExpress.9a21cee9.svg",
+    "static/media/logoDiscover.svg": "/static/media/logoDiscover.679a5cc1.svg",
+    "static/media/logoMasterCard.svg": "/static/media/logoMasterCard.7565fd91.svg",
+    "static/media/logoVisa.svg": "/static/media/logoVisa.bc40cc4c.svg",
+    "static/media/card.css": "/static/media/tarjetaFront.b72b4139.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107bb8ca.js",
+    "static/js/2.b004c266.chunk.js",
+    "static/css/main.355a8071.chunk.css",
+    "static/js/main.b53a56e2.chunk.js"
+  ]
+}

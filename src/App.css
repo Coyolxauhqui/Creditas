@@ -1,0 +1,67 @@
+/* general */
+*{ margin: 0px; padding: 0px; box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;}
+
+html, body{
+    font-family: 'Roboto-Regular';
+    background-color:#d3e9fc;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #2d2926;;
+    min-width: 330px;
+    height: 100%;
+}
+.page {
+    width: 460px;
+    margin: 50px auto;
+    position: relative;
+}
+.tRight{text-align: right;}
+.desac{cursor: none; pointer-events: none;}
+img.logo {
+    width: 150px;padding: 10px 10px 0px 0px;
+}
+.logoBack{
+    width: 130px;
+}
+.contTarjetaBack {
+    text-align: right;
+}
+.formularios {
+    box-shadow: 1px 0px 19px #d0cfcf;
+    margin: auto;
+    padding: 150px 30px 30px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -131px;
+    z-index: 0;
+}
+.btn {
+    background-color: #0055d4;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0px 10px 0px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px #0055d461;
+}
+.seleccionado {
+    border: 1px solid #faf9f9;
+    border-radius: 5px;
+}
+.contName, .contDate{ padding: 5px 10px}
+@media screen and (max-width: 500px) {
+    .divRadio div {width: 100%;}
+}
+    

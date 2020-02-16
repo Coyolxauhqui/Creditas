@@ -1,0 +1,58 @@
+.divCol {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px 2%;
+}
+.col1{
+  grid-column: auto / span 1;
+}
+.col2 {
+  grid-column: auto / span 2;
+}
+.col3 {
+  grid-column: auto / span 3;
+}
+.col4 {
+  grid-column: auto / span 4;
+}
+.col5 {
+  grid-column: auto / span 5;
+}
+.col6 {
+  grid-column: auto / span 6;
+}
+.col7 {
+  grid-column: auto / span 7;
+}
+.col8 {
+  grid-column: auto / span 8;
+}
+.col9 {
+  grid-column: auto / span 9;
+}
+.col10 {
+  grid-column: auto / span 10;
+}
+.col11 {
+  grid-column: auto / span 11;
+}
+.col12 {
+  grid-column: auto / span 12;
+}
+.divCol8 {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 2%;
+  font-size: 12px;
+  margin-top: 30px;
+}
+ .divFecha{ display: flex;}
+ .divFecha > div{  width: 24px;}
+ .divFecha > div:nth-child(1)::after {
+    content: "/";
+  }
+  .divFecha > div:nth-child(2) {    margin-left: 8px; }

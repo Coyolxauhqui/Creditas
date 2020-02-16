@@ -1,0 +1,59 @@
+input[type="text"], input[type="date"], input[type="number"], input[type="password"] {
+  background-color: #fff;
+  color: #2e2925;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #bfbfbf;
+  outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input#noCVC1 {
+    text-align: right;
+}
+select {
+  background-color: #fff;
+  color: #2e2925;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 40px;
+  width: 94%;
+  border: 1px solid #bfbfbf;
+  outline: none;
+}
+.contTarjeta input#noTarjeta1 {
+  font-size: 24px;padding: 5px 10px;    height: 40px;
+}
+
+.contTarjeta input[type="text"], .contTarjeta input[type="number"] {
+  font-size: 12px;
+  background-color: transparent;
+  color: #fff;
+  border: 0px;
+  padding: 0px;height: 20px;
+}
+
+input#noCVV1 {
+  text-align: right;
+}
+
+.contTarjeta input[type="text"].seleccionado, .contTarjeta input[type="number"].seleccionado {
+  border: 1px solid #faf9f9;
+  border-radius: 5px;
+  
+}
+  input:focus {
+    outline:transparent;
+    box-shadow: 0 0 0 1pt #d3e9fc;
+  }
